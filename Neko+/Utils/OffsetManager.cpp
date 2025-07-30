@@ -27,22 +27,6 @@ void OffsetProvider::initialize()
         mSigInitializers[i]();
     }
     uint64_t end = NOW;
-
-    for (const auto& sig : mSigs)
-    {
-        if (sig.second != 0)
-        {
-
-        }
-    }
-
-    for (const auto& sig : mSigs)
-    {
-        if (sig.second == 0)
-        {
-
-        }
-    }
     mIsInitialized = true;
 }
 
