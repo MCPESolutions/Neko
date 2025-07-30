@@ -1,9 +1,4 @@
-//
-// Created by vastrakai on 6/24/2024.
-//
-
 #include "SigManager.h"
-
 #include <iostream>
 #include <chrono>
 #include <omp.h>
