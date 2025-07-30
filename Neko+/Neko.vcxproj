@@ -161,6 +161,7 @@
     <ClCompile Include="Libs\imgui\impl\imgui_impl_win32.cpp" />
     <ClCompile Include="Libs\kiero\kiero.cpp" />
     <ClCompile Include="SDK\ClientInstance.cpp" />
+    <ClCompile Include="Utils\MemUtils.cpp" />
     <ClCompile Include="Utils\OffsetManager.cpp" />
     <ClCompile Include="Utils\SigManager.cpp" />
   </ItemGroup>
@@ -565,7 +566,9 @@
     <ClInclude Include="Libs\libhat\libhat\Traits.hpp" />
     <ClInclude Include="Libs\minhook\MinHook.h" />
     <ClInclude Include="SDK\ClientInstance.h" />
+    <ClInclude Include="Utils\fmt.h" />
     <ClInclude Include="Utils\Math.h" />
+    <ClInclude Include="Utils\MemUtils.h" />
     <ClInclude Include="Utils\OffsetManager.h" />
     <ClInclude Include="Utils\SigManager.h" />
     <ClInclude Include="Utils\XorStr.h" />
