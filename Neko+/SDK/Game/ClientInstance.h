@@ -8,7 +8,7 @@ public:
     CLASS_FIELD(uintptr_t**, vtable, 0x0);
     static ClientInstance* get();
 
-    class MinecraftSim* getMinecraftSim();
+    class MinecraftSim* getMinecraftSim(); //this is dumb..........................................................................................but its temp
     class LevelRenderer* getLevelRenderer();
     class LoopbackPacketSender* getPacketSender();
     class GuiData* getGuiData();
